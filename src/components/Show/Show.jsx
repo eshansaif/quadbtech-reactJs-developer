@@ -8,7 +8,7 @@ const Show = () => {
     console.log(shows);
 
     return (
-        <div className="grid md:grid-cols-3 gap-4 mt-10">
+        <div className="grid md:grid-cols-3 gap-4">
             {
                 shows.map(show => <SingleShow
                     key={show.show.id}
